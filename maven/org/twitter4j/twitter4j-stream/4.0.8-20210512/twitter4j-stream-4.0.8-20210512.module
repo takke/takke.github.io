@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-stream",
+    "version": "4.0.8-20210512",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "x4daq4wxxrhu7bpx4xmikkt7dy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-stream-4.0.8-20210512.jar",
+          "url": "twitter4j-stream-4.0.8-20210512.jar",
+          "size": 57769,
+          "sha512": "3a7799f51883cea525d4c7960dc25ede3ba860c5f181f3772a203fba42b2c5a40985fc0259930cbcfb7b7d93ab3083bf7cb5c7abfdce37f91c879a7f2aac2165",
+          "sha256": "490d792047dfad208fb9c765afb568a1f344295a7383a57728983d1327c64301",
+          "sha1": "2f93510c884e168aae7d06a959bc3b37f227906e",
+          "md5": "4160ddc720d7d94e5e4b1fd9c759f5b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-async",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-stream-4.0.8-20210512.jar",
+          "url": "twitter4j-stream-4.0.8-20210512.jar",
+          "size": 57769,
+          "sha512": "3a7799f51883cea525d4c7960dc25ede3ba860c5f181f3772a203fba42b2c5a40985fc0259930cbcfb7b7d93ab3083bf7cb5c7abfdce37f91c879a7f2aac2165",
+          "sha256": "490d792047dfad208fb9c765afb568a1f344295a7383a57728983d1327c64301",
+          "sha1": "2f93510c884e168aae7d06a959bc3b37f227906e",
+          "md5": "4160ddc720d7d94e5e4b1fd9c759f5b2"
+        }
+      ]
+    }
+  ]
+}

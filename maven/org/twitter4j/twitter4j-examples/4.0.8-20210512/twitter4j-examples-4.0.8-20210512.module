@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-examples",
+    "version": "4.0.8-20210512",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "x4daq4wxxrhu7bpx4xmikkt7dy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-examples-4.0.8-20210512.jar",
+          "url": "twitter4j-examples-4.0.8-20210512.jar",
+          "size": 121466,
+          "sha512": "a640d3907db426f285fe8e766bb36ad857f1485c88092b6db50b34fcc3ad5ae216b601928e209d50fbf7e335151419f794b73c4650556e4cbf9193252d99ada8",
+          "sha256": "41b2e26f433599dea07c283987ebd7243f0420f1371a82333f20869665dccf2d",
+          "sha1": "662085cf36134133c96fccd5d9e4506211f5d3b5",
+          "md5": "3a39da6015df53b3563c1c8731ba2dd8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-async",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-stream",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-media-support",
+          "version": {
+            "requires": "4.0.8-20210512"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-examples-4.0.8-20210512.jar",
+          "url": "twitter4j-examples-4.0.8-20210512.jar",
+          "size": 121466,
+          "sha512": "a640d3907db426f285fe8e766bb36ad857f1485c88092b6db50b34fcc3ad5ae216b601928e209d50fbf7e335151419f794b73c4650556e4cbf9193252d99ada8",
+          "sha256": "41b2e26f433599dea07c283987ebd7243f0420f1371a82333f20869665dccf2d",
+          "sha1": "662085cf36134133c96fccd5d9e4506211f5d3b5",
+          "md5": "3a39da6015df53b3563c1c8731ba2dd8"
+        }
+      ]
+    }
+  ]
+}
