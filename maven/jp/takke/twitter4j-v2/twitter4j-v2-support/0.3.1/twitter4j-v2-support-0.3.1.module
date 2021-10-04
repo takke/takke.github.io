@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "mslv6dat6rbrfjk462sil5jvdi"
+      "buildId": "jbynbdfmr5dv3paf67pu7glnmi"
     }
   },
   "variants": [
@@ -30,11 +30,11 @@
         {
           "name": "twitter4j-v2-support-0.3.1.jar",
           "url": "twitter4j-v2-support-0.3.1.jar",
-          "size": 114646,
-          "sha512": "ee62e6eccf67b65af2168de78418671fd080999ad0ae35459715ac8caf83717385697208afe28902e724714751ee92c34c99761b8296e740a77a391b10025d77",
-          "sha256": "f699fd11fd8653d321b20bd56edbe647bb0656e56cfb27a509ed709822efd1cc",
-          "sha1": "072cee98a7e330029bdb9bed00aac3a8cc265eee",
-          "md5": "c8b74883c6cc6d88cfdcd8de9a48cff0"
+          "size": 119517,
+          "sha512": "aeaafdc06d1d131c0eb659528beef330f6fb511146270908104387b4ae00d4576e3291fa6d2105901aa7114a529d94f2b6c8983990abd370aa66fb99678d0166",
+          "sha256": "c5a4b05a00a16f2f352aa45601be9b07562fa95806073c0af83b95d2bdabd933",
+          "sha1": "f17bdd54876270d943bb06e241e0cda6b0cd521e",
+          "md5": "480224b3511fec342baa190c4c96ca44"
         }
       ]
     },
@@ -80,11 +80,11 @@
         {
           "name": "twitter4j-v2-support-0.3.1.jar",
           "url": "twitter4j-v2-support-0.3.1.jar",
-          "size": 114646,
-          "sha512": "ee62e6eccf67b65af2168de78418671fd080999ad0ae35459715ac8caf83717385697208afe28902e724714751ee92c34c99761b8296e740a77a391b10025d77",
-          "sha256": "f699fd11fd8653d321b20bd56edbe647bb0656e56cfb27a509ed709822efd1cc",
-          "sha1": "072cee98a7e330029bdb9bed00aac3a8cc265eee",
-          "md5": "c8b74883c6cc6d88cfdcd8de9a48cff0"
+          "size": 119517,
+          "sha512": "aeaafdc06d1d131c0eb659528beef330f6fb511146270908104387b4ae00d4576e3291fa6d2105901aa7114a529d94f2b6c8983990abd370aa66fb99678d0166",
+          "sha256": "c5a4b05a00a16f2f352aa45601be9b07562fa95806073c0af83b95d2bdabd933",
+          "sha1": "f17bdd54876270d943bb06e241e0cda6b0cd521e",
+          "md5": "480224b3511fec342baa190c4c96ca44"
         }
       ]
     }

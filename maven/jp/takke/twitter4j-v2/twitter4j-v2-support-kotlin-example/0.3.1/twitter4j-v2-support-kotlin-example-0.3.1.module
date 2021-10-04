@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "mslv6dat6rbrfjk462sil5jvdi"
+      "buildId": "jbynbdfmr5dv3paf67pu7glnmi"
     }
   },
   "variants": [
@@ -31,10 +31,10 @@
           "name": "twitter4j-v2-support-kotlin-example-0.3.1.jar",
           "url": "twitter4j-v2-support-kotlin-example-0.3.1.jar",
           "size": 38306,
-          "sha512": "bbaa66b9e67a938ef612b0a50d9d1734c9a39c73bc7549a51ba4131259372d88650bea7d16911124fae8a0a006e4c236b318bb45392f9224fe3256063171f2f4",
-          "sha256": "c558ce9b95c09e023aef7b5dc1679ec5fee393c742796a7343dd6e24a61d73c3",
-          "sha1": "86b3568d18a83bb76bf682a13c63848c4cc4f803",
-          "md5": "2b3c3ad821e4574de2a86692c43828d9"
+          "sha512": "53dbfc54cd563ddd2ebcc1d6c0e929514799cae671bb7e07cc06c3189ca5e3e6432083e9f0c22f92a684ba599600cf97f67512b80446744eb8d528f6a30dfd41",
+          "sha256": "cc19670548bd700bb5dcddfc3ab7dffc3ad0c31f352e3852acebf3ca5927e39b",
+          "sha1": "b89d66146707c1fcc5ae1a39c615c8a4a05b48cc",
+          "md5": "28b3035a47dd9a4389c415f7174c12a9"
         }
       ]
     },
@@ -88,10 +88,10 @@
           "name": "twitter4j-v2-support-kotlin-example-0.3.1.jar",
           "url": "twitter4j-v2-support-kotlin-example-0.3.1.jar",
           "size": 38306,
-          "sha512": "bbaa66b9e67a938ef612b0a50d9d1734c9a39c73bc7549a51ba4131259372d88650bea7d16911124fae8a0a006e4c236b318bb45392f9224fe3256063171f2f4",
-          "sha256": "c558ce9b95c09e023aef7b5dc1679ec5fee393c742796a7343dd6e24a61d73c3",
-          "sha1": "86b3568d18a83bb76bf682a13c63848c4cc4f803",
-          "md5": "2b3c3ad821e4574de2a86692c43828d9"
+          "sha512": "53dbfc54cd563ddd2ebcc1d6c0e929514799cae671bb7e07cc06c3189ca5e3e6432083e9f0c22f92a684ba599600cf97f67512b80446744eb8d528f6a30dfd41",
+          "sha256": "cc19670548bd700bb5dcddfc3ab7dffc3ad0c31f352e3852acebf3ca5927e39b",
+          "sha1": "b89d66146707c1fcc5ae1a39c615c8a4a05b48cc",
+          "md5": "28b3035a47dd9a4389c415f7174c12a9"
         }
       ]
     }

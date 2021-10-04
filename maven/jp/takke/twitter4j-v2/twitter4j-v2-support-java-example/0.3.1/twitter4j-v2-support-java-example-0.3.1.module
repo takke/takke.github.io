@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2.2",
-      "buildId": "mslv6dat6rbrfjk462sil5jvdi"
+      "buildId": "jbynbdfmr5dv3paf67pu7glnmi"
     }
   },
   "variants": [
@@ -40,10 +40,10 @@
           "name": "twitter4j-v2-support-java-example-0.3.1.jar",
           "url": "twitter4j-v2-support-java-example-0.3.1.jar",
           "size": 2068,
-          "sha512": "d3c24024657497703007bbbb3d7732f2c45628866afdf7c76f055480c3bcfd2580f3324852d20fc4fb676c50944bec67accd5091aded274644056f10996a8dd2",
-          "sha256": "7828b9098987f88ce52ebf3bcf39f60f9f04b333e18077698681e70a63dc06ba",
-          "sha1": "239786475447ca70044cfccd7585373e4d7a7928",
-          "md5": "2728ef0bf549e91943f1b39e19b34676"
+          "sha512": "67604f97e9f07ef312c6e14dc96362f8a8e2c953655bcca94ca74b6f655a345bd3063ea91b42c89557871ce153c734cdceba32825ea38884099e6b7529d20ca7",
+          "sha256": "518dbf8a8a4f6c603ed5ef221f80fe62d85695912c4da71dc8e829caa389ecbb",
+          "sha1": "35964646c2d8e0c6a6c733260e7f3dce265ae23b",
+          "md5": "f83877edbdb8c6393244187eb044d153"
         }
       ]
     },
@@ -86,10 +86,10 @@
           "name": "twitter4j-v2-support-java-example-0.3.1.jar",
           "url": "twitter4j-v2-support-java-example-0.3.1.jar",
           "size": 2068,
-          "sha512": "d3c24024657497703007bbbb3d7732f2c45628866afdf7c76f055480c3bcfd2580f3324852d20fc4fb676c50944bec67accd5091aded274644056f10996a8dd2",
-          "sha256": "7828b9098987f88ce52ebf3bcf39f60f9f04b333e18077698681e70a63dc06ba",
-          "sha1": "239786475447ca70044cfccd7585373e4d7a7928",
-          "md5": "2728ef0bf549e91943f1b39e19b34676"
+          "sha512": "67604f97e9f07ef312c6e14dc96362f8a8e2c953655bcca94ca74b6f655a345bd3063ea91b42c89557871ce153c734cdceba32825ea38884099e6b7529d20ca7",
+          "sha256": "518dbf8a8a4f6c603ed5ef221f80fe62d85695912c4da71dc8e829caa389ecbb",
+          "sha1": "35964646c2d8e0c6a6c733260e7f3dce265ae23b",
+          "md5": "f83877edbdb8c6393244187eb044d153"
         }
       ]
     }
