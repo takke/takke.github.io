@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.takke.twitter4j-v2",
+    "module": "twitter4j-v2-support-kotlin-example",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "twitter4j-v2-support-kotlin-example-1.0.1.jar",
+          "url": "twitter4j-v2-support-kotlin-example-1.0.1.jar",
+          "size": 37841,
+          "sha512": "860d82b6b02617fa01b78b6a86ec7151e2843fd10dcfa4a4edd1ca16c6b90b3f1412b5a77b4a9477a0b24109470eef051f60867d16bad2dc18c5fd23a3d0a9dc",
+          "sha256": "3e4985da9cb285194de9291b5928fe9c62a3e6172d77d0047ac55c8037e441d6",
+          "sha1": "ccc144912028651f008af92722d780425a8a7f50",
+          "md5": "256b15d484721e477de36151afc19f02"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.7"
+          }
+        },
+        {
+          "group": "jp.takke.twitter4j-v2",
+          "module": "twitter4j-v2-support",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-kotlin-example-1.0.1.jar",
+          "url": "twitter4j-v2-support-kotlin-example-1.0.1.jar",
+          "size": 37841,
+          "sha512": "860d82b6b02617fa01b78b6a86ec7151e2843fd10dcfa4a4edd1ca16c6b90b3f1412b5a77b4a9477a0b24109470eef051f60867d16bad2dc18c5fd23a3d0a9dc",
+          "sha256": "3e4985da9cb285194de9291b5928fe9c62a3e6172d77d0047ac55c8037e441d6",
+          "sha1": "ccc144912028651f008af92722d780425a8a7f50",
+          "md5": "256b15d484721e477de36151afc19f02"
+        }
+      ]
+    }
+  ]
+}
