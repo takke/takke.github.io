@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-media-support",
+    "version": "4.0.8-20200607",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "agjek2htqjaplassfea3osvpdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-media-support-4.0.8-20200607.jar",
+          "url": "twitter4j-media-support-4.0.8-20200607.jar",
+          "size": 261,
+          "sha512": "54c5250fa1261ba33101c626aa456ffd6e2d690dc96a1618dce6af51dd42e3abb6291005067a02ab0350e8a6b2b5cd09c694b541c0c54c108be23fb5add2c838",
+          "sha256": "5a2569e0e2a98fc244d8c102e8c552eda73f216389322b7fb528b4a1b4f78a1d",
+          "sha1": "9aa2e3a9ccc916ed0a803a7ba201cae5403ad4f3",
+          "md5": "335145cacee8d21df320e43e4df07831"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20200607"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-media-support-4.0.8-20200607.jar",
+          "url": "twitter4j-media-support-4.0.8-20200607.jar",
+          "size": 261,
+          "sha512": "54c5250fa1261ba33101c626aa456ffd6e2d690dc96a1618dce6af51dd42e3abb6291005067a02ab0350e8a6b2b5cd09c694b541c0c54c108be23fb5add2c838",
+          "sha256": "5a2569e0e2a98fc244d8c102e8c552eda73f216389322b7fb528b4a1b4f78a1d",
+          "sha1": "9aa2e3a9ccc916ed0a803a7ba201cae5403ad4f3",
+          "md5": "335145cacee8d21df320e43e4df07831"
+        }
+      ]
+    }
+  ]
+}

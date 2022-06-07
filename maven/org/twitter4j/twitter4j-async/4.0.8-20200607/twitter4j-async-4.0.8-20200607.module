@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-async",
+    "version": "4.0.8-20200607",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "agjek2htqjaplassfea3osvpdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-async-4.0.8-20200607.jar",
+          "url": "twitter4j-async-4.0.8-20200607.jar",
+          "size": 210098,
+          "sha512": "046f58b3e16941018163ddd8501afd71530d72a62645b4577e5dcc6f5c20a1efb12d8cd67ea29971e307eaddb0d15393ac541f1c6f38963c08eaf9af4f4f8ac7",
+          "sha256": "3658d4f91fc7c9365c0db8c7cdc72681079aa4267465a7485723000a569eb082",
+          "sha1": "54ac3f0f2a383fbe59339fb2c160192cc2c5e56b",
+          "md5": "4b366b705845413981c96fd48312555c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20200607"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-async-4.0.8-20200607.jar",
+          "url": "twitter4j-async-4.0.8-20200607.jar",
+          "size": 210098,
+          "sha512": "046f58b3e16941018163ddd8501afd71530d72a62645b4577e5dcc6f5c20a1efb12d8cd67ea29971e307eaddb0d15393ac541f1c6f38963c08eaf9af4f4f8ac7",
+          "sha256": "3658d4f91fc7c9365c0db8c7cdc72681079aa4267465a7485723000a569eb082",
+          "sha1": "54ac3f0f2a383fbe59339fb2c160192cc2c5e56b",
+          "md5": "4b366b705845413981c96fd48312555c"
+        }
+      ]
+    }
+  ]
+}

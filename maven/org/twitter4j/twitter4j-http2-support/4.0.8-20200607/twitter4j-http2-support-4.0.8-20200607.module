@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-http2-support",
+    "version": "4.0.8-20200607",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "agjek2htqjaplassfea3osvpdm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.0.8-20200607.jar",
+          "url": "twitter4j-http2-support-4.0.8-20200607.jar",
+          "size": 15162,
+          "sha512": "b191f7069af23f2aac2b2873c3d766a12e399a530a2ee2afc86baee3252ccd4b9e89da4f47194e1303337f216d640282755222721c29f622f9f2b271e55c0c25",
+          "sha256": "82800bb852558d04b3e8fb95f980dc76a78a0386829261c167321156b14b00ff",
+          "sha1": "b3f731812544f137a678a5eaf559c4b3e5506bc4",
+          "md5": "94e60ea52458a772a6895511ba9b8329"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20200607"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.0.8-20200607.jar",
+          "url": "twitter4j-http2-support-4.0.8-20200607.jar",
+          "size": 15162,
+          "sha512": "b191f7069af23f2aac2b2873c3d766a12e399a530a2ee2afc86baee3252ccd4b9e89da4f47194e1303337f216d640282755222721c29f622f9f2b271e55c0c25",
+          "sha256": "82800bb852558d04b3e8fb95f980dc76a78a0386829261c167321156b14b00ff",
+          "sha1": "b3f731812544f137a678a5eaf559c4b3e5506bc4",
+          "md5": "94e60ea52458a772a6895511ba9b8329"
+        }
+      ]
+    }
+  ]
+}
