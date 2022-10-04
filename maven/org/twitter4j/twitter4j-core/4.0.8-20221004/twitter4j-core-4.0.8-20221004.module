@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-core",
+    "version": "4.0.8-20221004",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-core-4.0.8-20221004.jar",
+          "url": "twitter4j-core-4.0.8-20221004.jar",
+          "size": 324166,
+          "sha512": "ad85b4975c6bef38742664c91b90b566564641df92ac602d71c9cfbe1cf28f136dcd1a5a46aa2853f3db2f633ba7f47f7eaf52a14ee8aa61fdcfff3c4f77ec61",
+          "sha256": "8559045faf4e0dc76a7ca843cd3c6211108ead9537b3365c1967e4a3592a0e1b",
+          "sha1": "c173590744383c80aa71d33310943a4a7349611e",
+          "md5": "d6ac968ac1a2ae4a4d50063771af06bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "twitter4j-core-4.0.8-20221004.jar",
+          "url": "twitter4j-core-4.0.8-20221004.jar",
+          "size": 324166,
+          "sha512": "ad85b4975c6bef38742664c91b90b566564641df92ac602d71c9cfbe1cf28f136dcd1a5a46aa2853f3db2f633ba7f47f7eaf52a14ee8aa61fdcfff3c4f77ec61",
+          "sha256": "8559045faf4e0dc76a7ca843cd3c6211108ead9537b3365c1967e4a3592a0e1b",
+          "sha1": "c173590744383c80aa71d33310943a4a7349611e",
+          "md5": "d6ac968ac1a2ae4a4d50063771af06bc"
+        }
+      ]
+    }
+  ]
+}

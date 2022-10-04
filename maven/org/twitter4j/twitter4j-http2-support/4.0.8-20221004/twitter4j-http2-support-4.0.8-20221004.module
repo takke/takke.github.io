@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-http2-support",
+    "version": "4.0.8-20221004",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.0.8-20221004.jar",
+          "url": "twitter4j-http2-support-4.0.8-20221004.jar",
+          "size": 15299,
+          "sha512": "88dd09d933297212edeac17a5ef4918e6fe795d808c5cab825230e46dcb554ab55c513d40c812c2cad7d46020130bc9e5bde16562785385257fd17ce1b428d43",
+          "sha256": "dfc77bffc1b02b77a1e2e4146b8e65a7810f692c5dbe29fb632bc438c60b96f7",
+          "sha1": "61f03a41060a65f8afdb26a3d3687134c0e67bd8",
+          "md5": "8676ee59f315399f6be847ede03733e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20221004"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.0.8-20221004.jar",
+          "url": "twitter4j-http2-support-4.0.8-20221004.jar",
+          "size": 15299,
+          "sha512": "88dd09d933297212edeac17a5ef4918e6fe795d808c5cab825230e46dcb554ab55c513d40c812c2cad7d46020130bc9e5bde16562785385257fd17ce1b428d43",
+          "sha256": "dfc77bffc1b02b77a1e2e4146b8e65a7810f692c5dbe29fb632bc438c60b96f7",
+          "sha1": "61f03a41060a65f8afdb26a3d3687134c0e67bd8",
+          "md5": "8676ee59f315399f6be847ede03733e8"
+        }
+      ]
+    }
+  ]
+}

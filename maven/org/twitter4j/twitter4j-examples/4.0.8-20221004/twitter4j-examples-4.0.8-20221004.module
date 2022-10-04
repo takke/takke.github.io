@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-examples",
+    "version": "4.0.8-20221004",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "twitter4j-examples-4.0.8-20221004.jar",
+          "url": "twitter4j-examples-4.0.8-20221004.jar",
+          "size": 120476,
+          "sha512": "a24e2cfc71eb60ae2ddabe0fcdee2786b4d19a80bf18808ff634fe7d49b73675721f2b0e8f92e29f8cd30658c48340a57eaa8ae7f9c3ef581ae4ddb8fb5bcb2d",
+          "sha256": "5794204917fb2f05702e43891f96d4f834acb002212528f05b953b8a002f18c9",
+          "sha1": "fb32842b8bf9edf357ec16f8899e55a0115cf088",
+          "md5": "86857497a6154575bfcbfa9e033502a2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.0.8-20221004"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-stream",
+          "version": {
+            "requires": "4.0.8-20221004"
+          }
+        },
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-media-support",
+          "version": {
+            "requires": "4.0.8-20221004"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-examples-4.0.8-20221004.jar",
+          "url": "twitter4j-examples-4.0.8-20221004.jar",
+          "size": 120476,
+          "sha512": "a24e2cfc71eb60ae2ddabe0fcdee2786b4d19a80bf18808ff634fe7d49b73675721f2b0e8f92e29f8cd30658c48340a57eaa8ae7f9c3ef581ae4ddb8fb5bcb2d",
+          "sha256": "5794204917fb2f05702e43891f96d4f834acb002212528f05b953b8a002f18c9",
+          "sha1": "fb32842b8bf9edf357ec16f8899e55a0115cf088",
+          "md5": "86857497a6154575bfcbfa9e033502a2"
+        }
+      ]
+    }
+  ]
+}
