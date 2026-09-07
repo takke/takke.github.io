@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../twitter4j-core/4.1.0-20260908/twitter4j-core-4.1.0-20260908.module",
+    "group": "org.twitter4j",
+    "module": "twitter4j-core",
+    "version": "4.1.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-core-iosSimulatorArm64Main-4.1.0-20260908.klib",
+          "url": "twitter4j-core-iossimulatorarm64-4.1.0-20260908.klib",
+          "size": 841727,
+          "sha512": "3ea90abea60eb501df5447b0aaf55fbac0e797abc392c98d5c8f0968811bdb09d777261b546f30cffac61052bbe58fc2e0e76898cf1f17cc34730344bc06353c",
+          "sha256": "1c0bb5e385b28dddbb34ce878d3fd014e330b1ecc0e9f65a0616028b6ece0272",
+          "sha1": "9f3fd2edd14b176b0b816181e95aa0d1d588a76a",
+          "md5": "ff449836b8a757e7285de17dd46ea514"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "twitter4j-core-iossimulatorarm64-4.1.0-20260908-sources.jar",
+          "url": "twitter4j-core-iossimulatorarm64-4.1.0-20260908-sources.jar",
+          "size": 261699,
+          "sha512": "91c58376481b6989d36391dd64eec697cca258452632b00cfb3c47def456f77a4b5781bbdaa292608225d0c609e1eac87123218a217831ae2da0a10aa51c02fd",
+          "sha256": "d8f780e392d5318d493428dc20f94bc51cb024cacf5421fa04619a085039e289",
+          "sha1": "d1454b5ac07e565e4892eabf13befa5551202546",
+          "md5": "a148efe438d54e778918db6b443d28e8"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-core-iossimulatorarm64-4.1.0-20260908-metadata.jar",
+          "url": "twitter4j-core-iossimulatorarm64-4.1.0-20260908-metadata.jar",
+          "size": 12571,
+          "sha512": "3a22e92539affabe80be465d02ac24fb2a296e918f0cce685adbd549ec315f69cc7edff1e821ccdcbc942a5a543645ccf97d15cc855f791488fe610d7ab07971",
+          "sha256": "8adbda16c08bcff27a307310b2a4edf712069a8a2ae47c03c76e65603f693f5a",
+          "sha1": "e495557b90990018611498e466d730c89940e0fe",
+          "md5": "5b66512cd37fb96b13573b4168e7c647"
+        }
+      ]
+    }
+  ]
+}

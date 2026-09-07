@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../twitter4j-v2-support/2.0.0-20260908/twitter4j-v2-support-2.0.0-20260908.module",
+    "group": "io.github.takke",
+    "module": "twitter4j-v2-support",
+    "version": "2.0.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iosSimulatorArm64Main-2.0.0-20260908.klib",
+          "url": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908.klib",
+          "size": 216665,
+          "sha512": "9826fd74f2bc9126a2683cc4568339500f52ae3dd3c3deb40d7dee1c1bc36a8ef5a39832cbee3c7723dd027d11016de13730d592c7c5be30d84778d970c6fad4",
+          "sha256": "3bdf0644946547c2bbaf6d510fdc5d1c7b63e84a97b4b6d51412a4e556d70685",
+          "sha1": "5f4247f1178464683ae2dec34940efd63f8f5b1f",
+          "md5": "00431bd1f66495da8e603b8dc1fba0e6"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-sources.jar",
+          "url": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-sources.jar",
+          "size": 35947,
+          "sha512": "c8a8efa45269536e1b59b73b9782f981e94a440b73ef5665a44e016b22f84fbe8f99bf8978356daf9242bdf0174c63ee2757807c5ca31f34e7011d8f36ed0bb3",
+          "sha256": "baa8576e551303d8ab203ef5b2bbcbaccb9eecddc1f324c670012e7105fbea87",
+          "sha1": "2773a05c06397f6984af0e4d5073ea2488fb6125",
+          "md5": "8c73995f0219a21db2da38b30ddf0ab3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-metadata.jar",
+          "url": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-metadata.jar",
+          "size": 3268,
+          "sha512": "4baad0f14527117f63084c45425f7e4f2ae7d90db248516677d92fe5c8afcfe4e91aa61d80f5e512e9644da835c22c489b0ac139b35fbe36c95ed0e5b7cb03ce",
+          "sha256": "e8f6c3b7ab841b2a7ade7c0cbb50360b0df74c44cc366b4164109fc656bfa88e",
+          "sha1": "2a6924ea2ccc3553708a0be52f30597517bcd29d",
+          "md5": "82f15a5086446768290c1f8dc3ceb9c6"
+        }
+      ]
+    }
+  ]
+}

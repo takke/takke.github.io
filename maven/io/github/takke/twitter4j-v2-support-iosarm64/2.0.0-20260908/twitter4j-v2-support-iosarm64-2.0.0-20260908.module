@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../twitter4j-v2-support/2.0.0-20260908/twitter4j-v2-support-2.0.0-20260908.module",
+    "group": "io.github.takke",
+    "module": "twitter4j-v2-support",
+    "version": "2.0.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iosArm64Main-2.0.0-20260908.klib",
+          "url": "twitter4j-v2-support-iosarm64-2.0.0-20260908.klib",
+          "size": 216603,
+          "sha512": "3f2bd38001d5eed78839de173efa66e74d27c2c3edb44a5c66d426a87eec2089e5077580c636d0d7f52ba316a93643febed53255c4236c8691fda2b13ba361c1",
+          "sha256": "b818567e4cee730aaff4ca854e8c71b95019c4865d4396bd1d145b0749355b10",
+          "sha1": "1d76e13a4b2e27894ada3a01141944652da68f02",
+          "md5": "4d56129978335f0eadba54384b25c4be"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iosarm64-2.0.0-20260908-sources.jar",
+          "url": "twitter4j-v2-support-iosarm64-2.0.0-20260908-sources.jar",
+          "size": 35947,
+          "sha512": "c8a8efa45269536e1b59b73b9782f981e94a440b73ef5665a44e016b22f84fbe8f99bf8978356daf9242bdf0174c63ee2757807c5ca31f34e7011d8f36ed0bb3",
+          "sha256": "baa8576e551303d8ab203ef5b2bbcbaccb9eecddc1f324c670012e7105fbea87",
+          "sha1": "2773a05c06397f6984af0e4d5073ea2488fb6125",
+          "md5": "8c73995f0219a21db2da38b30ddf0ab3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-iosarm64-2.0.0-20260908-metadata.jar",
+          "url": "twitter4j-v2-support-iosarm64-2.0.0-20260908-metadata.jar",
+          "size": 3268,
+          "sha512": "4baad0f14527117f63084c45425f7e4f2ae7d90db248516677d92fe5c8afcfe4e91aa61d80f5e512e9644da835c22c489b0ac139b35fbe36c95ed0e5b7cb03ce",
+          "sha256": "e8f6c3b7ab841b2a7ade7c0cbb50360b0df74c44cc366b4164109fc656bfa88e",
+          "sha1": "2a6924ea2ccc3553708a0be52f30597517bcd29d",
+          "md5": "82f15a5086446768290c1f8dc3ceb9c6"
+        }
+      ]
+    }
+  ]
+}

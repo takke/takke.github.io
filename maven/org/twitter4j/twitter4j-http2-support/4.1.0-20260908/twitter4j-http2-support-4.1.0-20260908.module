@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.twitter4j",
+    "module": "twitter4j-http2-support",
+    "version": "4.1.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.1.0-20260908.jar",
+          "url": "twitter4j-http2-support-4.1.0-20260908.jar",
+          "size": 15581,
+          "sha512": "ffe048984777c4f131bc77fc5853bcc51e4c12e3cf214d6f07b51d4979631938538616e258b26df1492a751347a64bacbbf01cc665b8909f8a6f2037221994ae",
+          "sha256": "b35b057662a83234d19b547817f333a70c81d65bc9ea25d89f28ae8c4b6ef778",
+          "sha1": "deba6cde5dffe830a3b79285c4678fee4a5cb1d7",
+          "md5": "3024cdb267b231b6cc2be8b14e88e893"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.1.0-20260908.jar",
+          "url": "twitter4j-http2-support-4.1.0-20260908.jar",
+          "size": 15581,
+          "sha512": "ffe048984777c4f131bc77fc5853bcc51e4c12e3cf214d6f07b51d4979631938538616e258b26df1492a751347a64bacbbf01cc665b8909f8a6f2037221994ae",
+          "sha256": "b35b057662a83234d19b547817f333a70c81d65bc9ea25d89f28ae8c4b6ef778",
+          "sha1": "deba6cde5dffe830a3b79285c4678fee4a5cb1d7",
+          "md5": "3024cdb267b231b6cc2be8b14e88e893"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.1.0-20260908-sources.jar",
+          "url": "twitter4j-http2-support-4.1.0-20260908-sources.jar",
+          "size": 9758,
+          "sha512": "35e514a445cbb1881e1f6bf5fc470a28bcf91ec276558599c08892ee9a7c79adbd5e9d3774113f2fcd55a650a85bf4d38d6377fe09774c1a1e45284b9c1ca811",
+          "sha256": "0fae9353a7a9b36a77f22f4081ec04e8e2d118d0bc368fd29f718963a6495c79",
+          "sha1": "78a447b82e8b6d0a7187806c66c7e2ae18285c0f",
+          "md5": "01ce140c8d41157290a7ff7049305bc4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "twitter4j-http2-support-4.1.0-20260908-javadoc.jar",
+          "url": "twitter4j-http2-support-4.1.0-20260908-javadoc.jar",
+          "size": 325731,
+          "sha512": "fc6527f7f613696ce4012f8debae83695610f4ee85c20a4a3e1b99211947190d4632808a5b9dc687268799474fb12cfaf82e0ae8ae467a97cace3155306335db",
+          "sha256": "4179646d2c48cd8424c72c4bfdacf22fcb9bcab77b03e5e46c14774099d8c67e",
+          "sha1": "fd891c5084f090ec4c201fc0c213bbd9f665c81c",
+          "md5": "66301523ff17a736470955986239dbb5"
+        }
+      ]
+    }
+  ]
+}

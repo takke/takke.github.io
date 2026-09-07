@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.takke",
+    "module": "twitter4j-v2-support",
+    "version": "2.0.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.twitter4j",
+          "module": "twitter4j-core",
+          "version": {
+            "requires": "4.1.0-20260908"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-v2-support-metadata-2.0.0-20260908.jar",
+          "url": "twitter4j-v2-support-2.0.0-20260908.jar",
+          "size": 30622,
+          "sha512": "cc1bf1e4f09af3b283917faf6ec145ed6fb7871a4c6406b47d7e6bca49839a48a508c5783756a6f36bf476077f2f3c7db49f715fb926a9c5de939d595dfcdf92",
+          "sha256": "9626c7e4304c3b812e853b16750d05273f21a61c49a90b8b82088a3103f1fcac",
+          "sha1": "f63c8404f915103ae677dafb551e9f1389e2f3d1",
+          "md5": "1b39ef517ebdc2d8e51a189f1a29d4ff"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "twitter4j-v2-support-kotlin-2.0.0-20260908-sources.jar",
+          "url": "twitter4j-v2-support-2.0.0-20260908-sources.jar",
+          "size": 35947,
+          "sha512": "beab16d75127ee23c79f3efe8e433a1ff2351ce02f528bd5b86ae492a3bb8bfeb9868bf82a4b7e64b76015aa5d762e4a86a50929834f4e5771e5524b0771802b",
+          "sha256": "7e2bf7bc389f41cd8ebe820990b73b43f3bc34d9e4ea69ba0905ecc276458070",
+          "sha1": "ed5bfe557461dff5dee1cb112b72d9084e6fa3e6",
+          "md5": "27a5540b0cfe852d726002379a393d32"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jp.takke.twitter4j-v2/2.0.0-20260908/jp.takke.twitter4j-v2-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "jp.takke.twitter4j-v2",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jp.takke.twitter4j-v2/2.0.0-20260908/jp.takke.twitter4j-v2-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "jp.takke.twitter4j-v2",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../jp.takke.twitter4j-v2/2.0.0-20260908/jp.takke.twitter4j-v2-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "jp.takke.twitter4j-v2",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iosarm64/2.0.0-20260908/twitter4j-v2-support-iosarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iosarm64",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iosarm64/2.0.0-20260908/twitter4j-v2-support-iosarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iosarm64",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iosarm64/2.0.0-20260908/twitter4j-v2-support-iosarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iosarm64",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iossimulatorarm64/2.0.0-20260908/twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iossimulatorarm64",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iossimulatorarm64/2.0.0-20260908/twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iossimulatorarm64",
+        "version": "2.0.0-20260908"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../twitter4j-v2-support-iossimulatorarm64/2.0.0-20260908/twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908.module",
+        "group": "io.github.takke",
+        "module": "twitter4j-v2-support-iossimulatorarm64",
+        "version": "2.0.0-20260908"
+      }
+    }
+  ]
+}

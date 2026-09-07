@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../twitter4j-core/4.1.0-20260908/twitter4j-core-4.1.0-20260908.module",
+    "group": "org.twitter4j",
+    "module": "twitter4j-core",
+    "version": "4.1.0-20260908",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-core-iosArm64Main-4.1.0-20260908.klib",
+          "url": "twitter4j-core-iosarm64-4.1.0-20260908.klib",
+          "size": 841662,
+          "sha512": "c9f20791c4199071403e6039213128fd8fd83a8192944e2f9556d4278d4f31efc59207a077c795ab50691e940ee63f3c61f8c642d759c7ed21ebf85192145d52",
+          "sha256": "961cfcd19557a5caf829b15a78dab4bd1783100d55d9740596e2eae79b8269ba",
+          "sha1": "a2a9289168b2a8e5dcbc93d9938d7e7f23bc4500",
+          "md5": "4d21c89338ed3e5ec2a99ceedb94e15e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "twitter4j-core-iosarm64-4.1.0-20260908-sources.jar",
+          "url": "twitter4j-core-iosarm64-4.1.0-20260908-sources.jar",
+          "size": 261699,
+          "sha512": "91c58376481b6989d36391dd64eec697cca258452632b00cfb3c47def456f77a4b5781bbdaa292608225d0c609e1eac87123218a217831ae2da0a10aa51c02fd",
+          "sha256": "d8f780e392d5318d493428dc20f94bc51cb024cacf5421fa04619a085039e289",
+          "sha1": "d1454b5ac07e565e4892eabf13befa5551202546",
+          "md5": "a148efe438d54e778918db6b443d28e8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "twitter4j-core-iosarm64-4.1.0-20260908-metadata.jar",
+          "url": "twitter4j-core-iosarm64-4.1.0-20260908-metadata.jar",
+          "size": 12571,
+          "sha512": "3a22e92539affabe80be465d02ac24fb2a296e918f0cce685adbd549ec315f69cc7edff1e821ccdcbc942a5a543645ccf97d15cc855f791488fe610d7ab07971",
+          "sha256": "8adbda16c08bcff27a307310b2a4edf712069a8a2ae47c03c76e65603f693f5a",
+          "sha1": "e495557b90990018611498e466d730c89940e0fe",
+          "md5": "5b66512cd37fb96b13573b4168e7c647"
+        }
+      ]
+    }
+  ]
+}
