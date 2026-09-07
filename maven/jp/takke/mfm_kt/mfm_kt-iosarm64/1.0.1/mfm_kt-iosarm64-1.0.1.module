@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mfm_kt/1.0.1/mfm_kt-1.0.1.module",
+    "group": "jp.takke.mfm_kt",
+    "module": "mfm_kt",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-iosArm64Main-1.0.1.klib",
+          "url": "mfm_kt-iosarm64-1.0.1.klib",
+          "size": 78360,
+          "sha512": "511efb8c5d654229da97a2040ec8a9dd14779c21ddb1310a301173bc83609f2b3655f62a756e1e579c9c5d527f3d2ae5e04dfc6a7215f9fd85b19bcf3a7f6464",
+          "sha256": "443994dc3a3e36c7af0d4c7e69c6202ceb1d7ee642aaad744560855a590881c7",
+          "sha1": "6319e3e98d521223eeb8aafc0d13064c68d6f911",
+          "md5": "f6c4834aa8b1a9a95db946ac710979f4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "mfm_kt-iosarm64-1.0.1-sources.jar",
+          "url": "mfm_kt-iosarm64-1.0.1-sources.jar",
+          "size": 13768,
+          "sha512": "36d34193fbfe4d93f7c3d149239128e3fe46afccb6a288f29ba1ef15f8d975b17f2b26e5fb9ccb5a1608a14c42917746280169351855ec4b60f060b9bd36d987",
+          "sha256": "e2a127c00d616458d39d44fa1f9290f8bfd951e6cb5800cadd67256fa1d66e35",
+          "sha1": "8ea77e7008595cbd0e2f52b900614bf823a1d585",
+          "md5": "cfd83cc2a853804dec7ede6a584cda8c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-iosarm64-1.0.1-metadata.jar",
+          "url": "mfm_kt-iosarm64-1.0.1-metadata.jar",
+          "size": 261,
+          "sha512": "d890f4447ed71c5a7df66fa9892eaed132859a294ed3043a84d78fc3d2a2d9c8e608a9d3e686d86cc8d70cd563e0b88519cb0a0fa2220a23cb005bee07182b49",
+          "sha256": "7f361a964600e65ba64c7f9d3eb01fd788e8337065bce35105c0145c42de11c8",
+          "sha1": "2bc5f61e3b8b82379dabb70c81025214826c6bd6",
+          "md5": "5789701bd927e64e0467204714925d10"
+        }
+      ]
+    }
+  ]
+}

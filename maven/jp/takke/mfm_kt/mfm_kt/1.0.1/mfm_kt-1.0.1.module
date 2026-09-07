@@ -1,0 +1,269 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.takke.mfm_kt",
+    "module": "mfm_kt",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-1.0.1.jar",
+          "url": "mfm_kt-1.0.1.jar",
+          "size": 8078,
+          "sha512": "7c278bb8762630f827839687c448f4d1570368ecae52f1e8ce9f9a6da33c4e064f952aa8f0370aa97aa60bd2ffefa3b7b65a576e8a4d5d8f9751ca8cecd22e7a",
+          "sha256": "1ce197d2f611d3405b53435f87199283291fc72542ea77e6c0debce37427afb7",
+          "sha1": "67160a951a7d8ca06565ad8e0005fd0bd8c4b83f",
+          "md5": "b3f5215257e543364ef827d5c56b7dc1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "mfm_kt-1.0.1-sources.jar",
+          "url": "mfm_kt-1.0.1-sources.jar",
+          "size": 13768,
+          "sha512": "36d34193fbfe4d93f7c3d149239128e3fe46afccb6a288f29ba1ef15f8d975b17f2b26e5fb9ccb5a1608a14c42917746280169351855ec4b60f060b9bd36d987",
+          "sha256": "e2a127c00d616458d39d44fa1f9290f8bfd951e6cb5800cadd67256fa1d66e35",
+          "sha1": "8ea77e7008595cbd0e2f52b900614bf823a1d585",
+          "md5": "cfd83cc2a853804dec7ede6a584cda8c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosarm64/1.0.1/mfm_kt-iosarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosarm64/1.0.1/mfm_kt-iosarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosarm64/1.0.1/mfm_kt-iosarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iossimulatorarm64/1.0.1/mfm_kt-iossimulatorarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iossimulatorarm64/1.0.1/mfm_kt-iossimulatorarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iossimulatorarm64/1.0.1/mfm_kt-iossimulatorarm64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iossimulatorarm64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosx64/1.0.1/mfm_kt-iosx64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosx64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosx64/1.0.1/mfm_kt-iosx64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosx64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-iosx64/1.0.1/mfm_kt-iosx64-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-iosx64",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-jvm/1.0.1/mfm_kt-jvm-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-jvm",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-jvm/1.0.1/mfm_kt-jvm-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-jvm",
+        "version": "1.0.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mfm_kt-jvm/1.0.1/mfm_kt-jvm-1.0.1.module",
+        "group": "jp.takke.mfm_kt",
+        "module": "mfm_kt-jvm",
+        "version": "1.0.1"
+      }
+    }
+  ]
+}
