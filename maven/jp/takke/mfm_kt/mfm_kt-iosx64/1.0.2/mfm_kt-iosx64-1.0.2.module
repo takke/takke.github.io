@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mfm_kt/1.0.2/mfm_kt-1.0.2.module",
+    "group": "jp.takke.mfm_kt",
+    "module": "mfm_kt",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-iosX64Main-1.0.2.klib",
+          "url": "mfm_kt-iosx64-1.0.2.klib",
+          "size": 78597,
+          "sha512": "4bd68c1bba12a7632bfba1add6aebf91688d3ce516eadb2ff1196ecd9160299f559034c564ec8b435db523164507f2fcb28acccdcf391ac3222a9f8c3fdc285f",
+          "sha256": "b5c4dbdd0d70b12bb6d968bc117864b43c3b07b1d142302133b6a0e82220f750",
+          "sha1": "b025d1806895a3d6be0f5d6f5bca76086595fa46",
+          "md5": "52fb57e9021c05d4de2d5bbe4cbf1d28"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "mfm_kt-iosx64-1.0.2-sources.jar",
+          "url": "mfm_kt-iosx64-1.0.2-sources.jar",
+          "size": 13864,
+          "sha512": "61ca7b965048929e92bd8f16fe4ddc09f5f4c7d7e02a68dc16a63b93a7c9b2f853a58b4124e95c4dfd4732b8d7cc2f7a879c042ff61e05b647cb9d7823000fff",
+          "sha256": "3f3e54ec978bed420d2a5c32fc2e26bd9125b1bd5f69ed835daac85a9f1b8343",
+          "sha1": "1151d29e38017ed9171366982a92a9fc2427efc0",
+          "md5": "fc057723e016729d407ac78c27372233"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-iosx64-1.0.2-metadata.jar",
+          "url": "mfm_kt-iosx64-1.0.2-metadata.jar",
+          "size": 261,
+          "sha512": "d1786850b90d254d38b5756949d8049a5ba82fb1135edd6fe6a354fd69dae65a96557498c93c6a81f6e4be00742a6cbb01a7d8106e8188e1dafb43b08c0f02a5",
+          "sha256": "d92c9089fb95c6cd6d471d778ff5b2a71bc8bb9d847b524d6c816c681477e90b",
+          "sha1": "0b847255209b50f436804d11190a16d8d88d713f",
+          "md5": "69a3cff613290b7a2998b22f931612db"
+        }
+      ]
+    }
+  ]
+}

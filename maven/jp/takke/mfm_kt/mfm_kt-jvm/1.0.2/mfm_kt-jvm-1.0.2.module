@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mfm_kt/1.0.2/mfm_kt-1.0.2.module",
+    "group": "jp.takke.mfm_kt",
+    "module": "mfm_kt",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-jvm-1.0.2.jar",
+          "url": "mfm_kt-jvm-1.0.2.jar",
+          "size": 69616,
+          "sha512": "f3998c35ce136cab68eea99d2a8e84f04607a2e7f4e684eed43e970248972b28b9b8ff1e8988e2bc22159cfbab105bf0ceb1764f0942bfa6d79b0975996ab2cd",
+          "sha256": "1d1895dc52be6cb449e29f7d3c5000acbffd0b1049f389b5d98e9e463d5f5500",
+          "sha1": "0685f850679717dda71769207b3943f488cdd5fb",
+          "md5": "8f0c1d9588c5331b61f5823f51e5fe6a"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mfm_kt-jvm-1.0.2.jar",
+          "url": "mfm_kt-jvm-1.0.2.jar",
+          "size": 69616,
+          "sha512": "f3998c35ce136cab68eea99d2a8e84f04607a2e7f4e684eed43e970248972b28b9b8ff1e8988e2bc22159cfbab105bf0ceb1764f0942bfa6d79b0975996ab2cd",
+          "sha256": "1d1895dc52be6cb449e29f7d3c5000acbffd0b1049f389b5d98e9e463d5f5500",
+          "sha1": "0685f850679717dda71769207b3943f488cdd5fb",
+          "md5": "8f0c1d9588c5331b61f5823f51e5fe6a"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mfm_kt-jvm-1.0.2-sources.jar",
+          "url": "mfm_kt-jvm-1.0.2-sources.jar",
+          "size": 13864,
+          "sha512": "61ca7b965048929e92bd8f16fe4ddc09f5f4c7d7e02a68dc16a63b93a7c9b2f853a58b4124e95c4dfd4732b8d7cc2f7a879c042ff61e05b647cb9d7823000fff",
+          "sha256": "3f3e54ec978bed420d2a5c32fc2e26bd9125b1bd5f69ed835daac85a9f1b8343",
+          "sha1": "1151d29e38017ed9171366982a92a9fc2427efc0",
+          "md5": "fc057723e016729d407ac78c27372233"
+        }
+      ]
+    }
+  ]
+}
