@@ -121,10 +121,10 @@
           "name": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-metadata.jar",
           "url": "twitter4j-v2-support-iossimulatorarm64-2.0.0-20260908-metadata.jar",
           "size": 3268,
-          "sha512": "3b44ac39e33c871385be64034fe394ca746cf5e0a795de53303e4e9b14a0c0e53d112ed6125bf788e637bfffc30a84f74485d4b29b84ab849fa0aa3175c37015",
-          "sha256": "05c67c97a85017ead89668db968fbde5c0386653d4101b0ac5a87fa0f900bbd4",
-          "sha1": "412e517e56e10c8b66714092769cb1ae74cfc439",
-          "md5": "9a4fbf3bae1731dde3bb8f0f1d8aefd1"
+          "sha512": "06da04f4f7b6e132078c29126404f0f70d93e68f8f2a0d354662e080d8506d67196bc8880d5c0acf3b226485aaf1736f833f89aeada7dfefb45194b3c3ddbeba",
+          "sha256": "260be8b35fe9657eb2531c9320fcb6ee96345dc6ee4195f25c54b13e3fea132e",
+          "sha1": "1f63b4da01bb9cc16fbdc39fd0322063bd152239",
+          "md5": "1caf1b761f37a968c19f9e602ea008c8"
         }
       ]
     }

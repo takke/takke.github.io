@@ -39,10 +39,10 @@
           "name": "twitter4j-http2-support-4.1.0-20260908.jar",
           "url": "twitter4j-http2-support-4.1.0-20260908.jar",
           "size": 15581,
-          "sha512": "ee7e62bcf222840ce15153a2616dcc1b9766f4ff9626557732e72f15b64e86d048e5c4fe892c2238a90f5ea952ffe39fdba91e5e6d62a67c047fee994b8e3650",
-          "sha256": "2aa9d0423e8e64e2030676ad72bbac959c33a00c18a4996d8c47fea0753d3f5e",
-          "sha1": "98a82bac9637314ae9349de964c58ad304efaadf",
-          "md5": "858eb1c84f33547e5e2dc83f4acc97ec"
+          "sha512": "de41ca27920127e5a83a8f49452859185eae3bae745784b1a74b3c3237edb2761325909d4a7b5b1097fda40c08e20df7ecba5e363929613cb0dd7a306f02589e",
+          "sha256": "3db4d2a8e44c738c47680cd7080a49ad239ea7bf708ed6ef23087b2606a76f8b",
+          "sha1": "12615e8d12ecf0a2b31e2101b491a13cf71656a3",
+          "md5": "9a497c2538169b3f63687d8338e24a46"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "twitter4j-http2-support-4.1.0-20260908.jar",
           "url": "twitter4j-http2-support-4.1.0-20260908.jar",
           "size": 15581,
-          "sha512": "ee7e62bcf222840ce15153a2616dcc1b9766f4ff9626557732e72f15b64e86d048e5c4fe892c2238a90f5ea952ffe39fdba91e5e6d62a67c047fee994b8e3650",
-          "sha256": "2aa9d0423e8e64e2030676ad72bbac959c33a00c18a4996d8c47fea0753d3f5e",
-          "sha1": "98a82bac9637314ae9349de964c58ad304efaadf",
-          "md5": "858eb1c84f33547e5e2dc83f4acc97ec"
+          "sha512": "de41ca27920127e5a83a8f49452859185eae3bae745784b1a74b3c3237edb2761325909d4a7b5b1097fda40c08e20df7ecba5e363929613cb0dd7a306f02589e",
+          "sha256": "3db4d2a8e44c738c47680cd7080a49ad239ea7bf708ed6ef23087b2606a76f8b",
+          "sha1": "12615e8d12ecf0a2b31e2101b491a13cf71656a3",
+          "md5": "9a497c2538169b3f63687d8338e24a46"
         }
       ]
     },
@@ -105,10 +105,10 @@
           "name": "twitter4j-http2-support-4.1.0-20260908-sources.jar",
           "url": "twitter4j-http2-support-4.1.0-20260908-sources.jar",
           "size": 9758,
-          "sha512": "f3affd66105add78f765e59fc18017afc74c474801cd4f5d92fef9fb21b6256a1232150f7d9fd6af7ebe7445fc3ca2eebe3e486059c1c01a9eca141dae834eaf",
-          "sha256": "84a17ae2021230a0ec836e5c92bf01c70551c1adff649d9041ad82711872c3e2",
-          "sha1": "c89472e4432d19137c0493a20325bb65a4188a69",
-          "md5": "a9f6faa260f645af19d3dff8a728936d"
+          "sha512": "b92bf2f7f0a815bbe94bb2e72119cad5492cdb7e479bff263c5805cc0867b9117d0c85eecb9ff4ef167db5d7eabc4af973264efd3f6108dc5ea88cbb3ad466ab",
+          "sha256": "ed3606bf5617f34a908c84a5564a50599eefa6943e51daab5d08ab12cad5f527",
+          "sha1": "c3af8b81a8fba960734ccb2ead90bb3547f7e0a5",
+          "md5": "805161dae5d57dd36a4eafda105065fa"
         }
       ]
     },
@@ -124,11 +124,11 @@
         {
           "name": "twitter4j-http2-support-4.1.0-20260908-javadoc.jar",
           "url": "twitter4j-http2-support-4.1.0-20260908-javadoc.jar",
-          "size": 325732,
-          "sha512": "50aa7bf6b48d8476d7f26479a46171956c60a879e68219aa59987489014d0f26e43511490fd6b2629330fe8f34200b78252504df05e8fd7efeff407ddd9f7ca4",
-          "sha256": "7d9be431294ceaab38082a721592d821dec550a71b865ff296099aa8e7cedc7b",
-          "sha1": "ea5ea22584a283c7cc531e38581bf51e1b0c401a",
-          "md5": "10b85615a065654acbfbedc6c6a5b853"
+          "size": 325731,
+          "sha512": "676b52dff17ae8d98e6b36425371a2d300d8723b7529eb11b3d5986fbb65735ac65230467fd7e6d28f7d776f0c29f6186c37bda4784b729ef6793e01da2e15fd",
+          "sha256": "ca4e655bb4090956a78486d0a9cd3fbd053884e3a80fd07dba6f03354b007f60",
+          "sha1": "c90e2adcc65b84ac222c9d95981e756abaa37e88",
+          "md5": "09631ffa061afdb0ab9a44679cfe7530"
         }
       ]
     }

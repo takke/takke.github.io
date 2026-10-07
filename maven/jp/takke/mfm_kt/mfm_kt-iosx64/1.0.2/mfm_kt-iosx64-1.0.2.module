@@ -91,10 +91,10 @@
           "name": "mfm_kt-iosx64-1.0.2-metadata.jar",
           "url": "mfm_kt-iosx64-1.0.2-metadata.jar",
           "size": 261,
-          "sha512": "d1786850b90d254d38b5756949d8049a5ba82fb1135edd6fe6a354fd69dae65a96557498c93c6a81f6e4be00742a6cbb01a7d8106e8188e1dafb43b08c0f02a5",
-          "sha256": "d92c9089fb95c6cd6d471d778ff5b2a71bc8bb9d847b524d6c816c681477e90b",
-          "sha1": "0b847255209b50f436804d11190a16d8d88d713f",
-          "md5": "69a3cff613290b7a2998b22f931612db"
+          "sha512": "eb2a5d586dd56ef958906bac0720e473f0a21656fd6a0d7036e5ee1c33918287f5697044a2e995c10ff7045d96e646fbd896b20c9c1de11ee8d916f9321c72fb",
+          "sha256": "3e0c5a82a39dd15ea4276e1d4bba22d14ce90bbef8c9ecd4b38c0e9e4884fdc6",
+          "sha1": "f0180e92cf38cbbfd769b153d2c5af6130a6a338",
+          "md5": "53ae9b26c34a2ea1a42efdad14d81f83"
         }
       ]
     }

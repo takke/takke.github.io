@@ -1,0 +1,325 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sys1yagi",
+    "module": "mastodon4j-core",
+    "version": "3.0.0-20261007",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-metadata.jar",
+          "url": "mastodon4j-core-3.0.0-20261007.jar",
+          "size": 82331,
+          "sha512": "8c80f75f5d2e5bafa3de0d1ad66e0f03d1e04b6ac95581067aaf1fada1fa8dd74497961c3bb48705f3d5fbbeea6331bbd142e9fd6ad9a0aa33e41c29830d60c9",
+          "sha256": "06eb0787617f94170bd62e6d22537ed360d73d0e1559d960d8f2676b54c15544",
+          "sha1": "258c5b73b3ed89b47bda63f1124752cf076a9294",
+          "md5": "83ef1be5d40eee30c43258fa94492849"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-kotlin-sources.jar",
+          "url": "mastodon4j-core-3.0.0-20261007-sources.jar",
+          "size": 70215,
+          "sha512": "8ee0c237f81547244d130b3330b6293c788029a3e9fb07fe943c54e44d4619dedd441959d964e59467004a9dfe717d8c6be717d25247d8ecd70110b26ef4d91a",
+          "sha256": "959d23ca97783215edc741f0ec318d789bee98daac9f65a8b09dfef6bf03a7ce",
+          "sha1": "5080467123e18795d7ca440c3e3ffc1ff71f0479",
+          "md5": "fd9ad9589071f72a028a8d47bb9dbae1"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-android/3.0.0-20261007/mastodon4j-core-android-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-android",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-android/3.0.0-20261007/mastodon4j-core-android-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-android",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-android/3.0.0-20261007/mastodon4j-core-android-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-android",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosarm64/3.0.0-20261007/mastodon4j-core-iosarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosarm64/3.0.0-20261007/mastodon4j-core-iosarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosarm64/3.0.0-20261007/mastodon4j-core-iosarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iossimulatorarm64/3.0.0-20261007/mastodon4j-core-iossimulatorarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iossimulatorarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iossimulatorarm64/3.0.0-20261007/mastodon4j-core-iossimulatorarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iossimulatorarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iossimulatorarm64/3.0.0-20261007/mastodon4j-core-iossimulatorarm64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iossimulatorarm64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosx64/3.0.0-20261007/mastodon4j-core-iosx64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosx64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosx64/3.0.0-20261007/mastodon4j-core-iosx64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosx64",
+        "version": "3.0.0-20261007"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../mastodon4j-core-iosx64/3.0.0-20261007/mastodon4j-core-iosx64-3.0.0-20261007.module",
+        "group": "com.sys1yagi",
+        "module": "mastodon4j-core-iosx64",
+        "version": "3.0.0-20261007"
+      }
+    }
+  ]
+}
