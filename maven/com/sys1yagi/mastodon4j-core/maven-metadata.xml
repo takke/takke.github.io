@@ -3,13 +3,14 @@
   <groupId>com.sys1yagi</groupId>
   <artifactId>mastodon4j-core</artifactId>
   <versioning>
-    <latest>3.0.0-20261007</latest>
-    <release>3.0.0-20261007</release>
+    <latest>3.0.0-20261026</latest>
+    <release>3.0.0-20261026</release>
     <versions>
       <version>3.0.0-20260908</version>
       <version>3.0.0-20260924</version>
       <version>3.0.0-20261007</version>
+      <version>3.0.0-20261026</version>
     </versions>
-    <lastUpdated>20261007080227</lastUpdated>
+    <lastUpdated>20261026140403</lastUpdated>
   </versioning>
 </metadata>

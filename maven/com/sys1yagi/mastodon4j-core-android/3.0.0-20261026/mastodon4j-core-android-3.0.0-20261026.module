@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../mastodon4j-core/3.0.0-20261026/mastodon4j-core-3.0.0-20261026.module",
+    "group": "com.sys1yagi",
+    "module": "mastodon4j-core",
+    "version": "3.0.0-20261026",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-android.jar",
+          "url": "mastodon4j-core-android-3.0.0-20261026.jar",
+          "size": 961766,
+          "sha512": "5a8e92d2fd08e2b81c9d67875ac96cf99772c5696053bd71fdf8c0c642d20e48f9b24efcc90d4026b92cf72390e7175b832b2b387a05b6e55316753395a098bf",
+          "sha256": "32776870ce5e15e6ea4b31c5923c950670e6acba41e9768f9adb460847879562",
+          "sha1": "4c9908cc7a65dd53b0c93a4dd744c3e2196c716f",
+          "md5": "a0fbce35541e733a15b3e1b8dd0b1d61"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-android.jar",
+          "url": "mastodon4j-core-android-3.0.0-20261026.jar",
+          "size": 961766,
+          "sha512": "5a8e92d2fd08e2b81c9d67875ac96cf99772c5696053bd71fdf8c0c642d20e48f9b24efcc90d4026b92cf72390e7175b832b2b387a05b6e55316753395a098bf",
+          "sha256": "32776870ce5e15e6ea4b31c5923c950670e6acba41e9768f9adb460847879562",
+          "sha1": "4c9908cc7a65dd53b0c93a4dd744c3e2196c716f",
+          "md5": "a0fbce35541e733a15b3e1b8dd0b1d61"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-android-sources.jar",
+          "url": "mastodon4j-core-android-3.0.0-20261026-sources.jar",
+          "size": 70649,
+          "sha512": "f54d67f8905b5aa84f8f0159d6d0a753b4ffae650330239167cc2be55823fddcf160858c59f8be315c3282ae0a147ca5d966be51f73af6704fa129f282e07127",
+          "sha256": "7d146d7f80446aedd91f1ae64cd5f18115601cc2e52a5b9cd0ff202804653e20",
+          "sha1": "158425ed058814402334852a2e774eb88f62ad0c",
+          "md5": "4c52730d83248ce793f2855fe4b9b092"
+        }
+      ]
+    }
+  ]
+}
