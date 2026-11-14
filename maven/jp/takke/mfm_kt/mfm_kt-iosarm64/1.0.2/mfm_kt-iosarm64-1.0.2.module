@@ -91,10 +91,10 @@
           "name": "mfm_kt-iosarm64-1.0.2-metadata.jar",
           "url": "mfm_kt-iosarm64-1.0.2-metadata.jar",
           "size": 261,
-          "sha512": "81c53661fc9bb7bcceb9351026e8f7b2456c5df3cbc4d66c9d3a92237db38e1fc72c7fcfa1511cde4b925ea6f400eafe544d7593b7793dcfdbdf0cf964c2d931",
-          "sha256": "9cd6a0b8fa0998cca8a589f40b6e70f54c0bf3d4402b38e313060a9afed16a73",
-          "sha1": "389e5917fd9473ae3d91366b144f839f5f379e0e",
-          "md5": "11c328e250eed905c00117afef724532"
+          "sha512": "b0df4bea5b2c9543f7778f077424d55192ea61a13838afde204852d10ac8b4a4a3f74ba6c50dde36eb4f0c3fc16fc263ee07a97bcc8ce8188c1d140c8aa84ae2",
+          "sha256": "8dce73ee3cd4b77e5003186141530344efcc5a5161acb5f6fc314de375732c91",
+          "sha1": "b250183cbdc1df9ec1f49d32464e5d715574a278",
+          "md5": "7810a82808f8babe6865e90da6687a46"
         }
       ]
     }
